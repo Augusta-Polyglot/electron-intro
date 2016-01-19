@@ -13,7 +13,7 @@ app.on('ready', function(){
     editorWindow = null;
   });
 
-  editorWindow.loadURL('file://' + __dirname + '/browser_files/main.html');
+  editorWindow.loadURL('file://' + __dirname + '/main.html');
   editorWindow.show();
 
 });
