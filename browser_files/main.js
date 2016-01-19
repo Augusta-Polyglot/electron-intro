@@ -4,6 +4,4 @@ app.controller('main',function($scope){
 
   $scope.helloElectron = "Hello Electron!";
 
-
-
 });
