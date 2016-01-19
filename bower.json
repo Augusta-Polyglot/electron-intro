@@ -1,0 +1,24 @@
+{
+  "name": "electron-intro",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Justin Basinger <justin.m.basinger@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ace-builds": "~1.2.3",
+    "angular-ui-ace": "bower",
+    "angular": "angularjs#~1.4.8"
+  }
+}
