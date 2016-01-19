@@ -10,6 +10,16 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
     <script src="browser_files/main.js"></script>
 
+    <script src="bower_components/ace-builds/src-min-noconflict/mode-javascript.js"></script>
+    <script src="bower_components/ace-builds/src-min-noconflict/mode-html.js"></script>
+
+    <script>
+      var AceModes = {
+        JavaScript: ace.require('ace/mode/javascript').Mode,
+        HTML: ace.require('ace/mode/html').Mode
+      };
+    </script>
+
   </head>
   <body ng-controller="main">
     <h1>{{helloElectron}}</h1>
